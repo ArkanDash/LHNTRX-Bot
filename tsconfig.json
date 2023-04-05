@@ -1,12 +1,10 @@
 {
-	"extends": "@sapphire/ts-config",
 	"compilerOptions": {
 		"target": "ES2021",
         "module": "ES2022",
         "moduleResolution": "node",
 		"lib": ["ES2021"],
 		"strict": true,
-		"rootDir": "src",
 		"outDir": "dist",
 		"esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
@@ -16,10 +14,9 @@
         "noEmitHelpers": true,
         "importHelpers": true,
         "resolveJsonModule": true,
-		"tsBuildInfoFile": "dist/.tsbuildinfo",
-		"importsNotUsedAsValues": "preserve",
-		"ignoreDeprecations": "5.0"
+		"verbatimModuleSyntax": true,
+        "typeRoots": ["node_modules/@types"],
 	},
 	"exclude": [],
-	"include": ["src"]
+	"include": ["src/**/*"]
 }
