@@ -2,7 +2,6 @@ import type { ChatInputCommandSuccessPayload, Command, ContextMenuCommandSuccess
 import { container } from '@sapphire/framework';
 import { send } from '@sapphire/plugin-editable-commands';
 import { cyan } from 'colorette';
-import type { APIUser } from 'discord-api-types/v9';
 import { Guild, Message, EmbedBuilder, User } from 'discord.js';
 import { RandomLoadingMessage } from './constants';
 
@@ -54,7 +53,7 @@ function getCommandInfo(command: Command) {
 	return cyan(command.name);
 }
 
-function getAuthorInfo(author: User | APIUser) {
+function getAuthorInfo(author: User) {
 	return `${author.username}[${cyan(author.id)}]`;
 }
 

@@ -1,17 +1,11 @@
-import { ActivityType, ActivityOptions, ClientPresenceStatus } from "discord.js";
-
-interface IPresenceData {
-    activities: ActivityOptions[];
-    status: ClientPresenceStatus[];
-    interval: number;
-}
-
+import { ActivityType, ClientPresenceStatus } from "discord.js";
+import { IPresenceData } from "./typings";
 export const devs: string[] = JSON.parse(process.env.OWNERS ?? "[]");
 export const guildsToRegister = JSON.parse(process.env.GUILD_REGISTER ?? "[]");
 export const prefix = process.env.PREFIX!;
 export const presenceData: IPresenceData = {
     activities: [
-        { name: "Hentai", type: ActivityType.Watching }
+        { name: "Youtube", type: ActivityType.Watching }
     ],
     status: ["online"] as ClientPresenceStatus[],
     interval: 60000

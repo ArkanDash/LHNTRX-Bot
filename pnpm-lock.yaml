@@ -19,7 +19,6 @@ specifiers:
   '@types/node': ^18.15.11
   '@types/ws': ^8.5.4
   colorette: ^2.0.19
-  discord-api-types: ^0.37.37
   discord.js: ^14.9.0
   dotenv: ^16.0.3
   dotenv-cra: ^3.0.3
@@ -46,7 +45,6 @@ dependencies:
   '@sapphire/type': 2.3.0
   '@sapphire/utilities': 3.11.0
   colorette: 2.0.19
-  discord-api-types: 0.37.37
   discord.js: 14.9.0
   dotenv: 16.0.3
   dotenv-cra: 3.0.3
@@ -1113,7 +1111,7 @@ packages:
     resolution: {integrity: sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA==}
     dependencies:
       hosted-git-info: 2.8.9
-      resolve: 1.22.1
+      resolve: 1.22.2
       semver: 5.7.1
       validate-npm-package-license: 3.0.4
     dev: true
@@ -1293,8 +1291,8 @@ packages:
       functions-have-names: 1.2.3
     dev: true
 
-  /resolve/1.22.1:
-    resolution: {integrity: sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==}
+  /resolve/1.22.2:
+    resolution: {integrity: sha512-Sb+mjNHOULsBv818T40qSPeRiuWLyaGMa5ewydRLFimneixmVy2zdivRl+AF6jaYPC8ERxGDmFSiqui6SfPd+g==}
     hasBin: true
     dependencies:
       is-core-module: 2.11.0

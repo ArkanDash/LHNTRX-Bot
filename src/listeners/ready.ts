@@ -2,7 +2,7 @@ import { ApplyOptions } from '@sapphire/decorators';
 import { Listener, Store } from '@sapphire/framework';
 import { blue, gray, green, magenta, magentaBright, white, yellow } from 'colorette';
 import { ChannelType, Presence } from 'discord.js';
-import { presenceData } from "../config";
+import { presenceData } from "../config.js";
 
 const dev = process.env.NODE_ENV !== 'production';
 

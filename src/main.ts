@@ -38,10 +38,3 @@ process.on("uncaughtException", e => {
 });
 
 client.login(process.env.DISCORD_TOKEN).catch(e => client.logger.error(e));
-
-declare module '@sapphire/framework' {
-    interface Preconditions {
-      OwnerOnly: never;
-      AdminOnly: never;
-    }
-}
