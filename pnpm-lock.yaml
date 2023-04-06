@@ -11,9 +11,7 @@ specifiers:
   '@sapphire/plugin-editable-commands': ^3.0.1
   '@sapphire/plugin-logger': ^3.0.2
   '@sapphire/plugin-subcommands': ^4.0.0
-  '@sapphire/prettier-config': ^1.4.5
   '@sapphire/time-utilities': ^1.7.9
-  '@sapphire/ts-config': ^3.3.4
   '@sapphire/type': ^2.3.0
   '@sapphire/utilities': ^3.11.0
   '@types/node': ^18.15.11
@@ -53,8 +51,6 @@ dependencies:
   tslib: 2.5.0
 
 devDependencies:
-  '@sapphire/prettier-config': 1.4.5
-  '@sapphire/ts-config': 3.3.4
   '@types/node': 18.15.11
   '@types/ws': 8.5.4
   npm-run-all: 4.1.5
@@ -243,13 +239,6 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@sapphire/prettier-config/1.4.5:
-    resolution: {integrity: sha512-XFyDXwztGmP7CJo1BMjmBZaX4aLyMPceZX4rQU9WsODnkJBTpAEIPjmioFUHlnLsu+yty0r5635Ye3eIcr1x0A==}
-    engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
-    dependencies:
-      prettier: 2.8.7
-    dev: true
-
   /@sapphire/ratelimits/2.4.6:
     resolution: {integrity: sha512-E8ZogD+gtXw/iAFuyd42ZzUcYzOC3qGXZFOjU12o0cSYWObh7kQEqkS62BB0hMXy+GJH0X2+kqgMklME8EhWUg==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
@@ -299,14 +288,6 @@ packages:
     resolution: {integrity: sha512-uLg+rBFuBiaQY/pFGDDzZSOH2cfv4ONIB7zQGNuRCTpYKBW/iIhRBIZjJZyn8NVkXQhVi+Q94DI4i6gDhYVs7w==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
-
-  /@sapphire/ts-config/3.3.4:
-    resolution: {integrity: sha512-mWEUxCXh3cHKI7C8HJ049exVTMNaq+A/lJEDfM5ENSQ/OOZHd5DdmXn2jrYqFWbTRCHa0Vp2FAmACWBwePsBtg==}
-    engines: {node: '>=v16.0.0', npm: '>=8.0.0'}
-    dependencies:
-      tslib: 2.5.0
-      typescript: 4.9.5
-    dev: true
 
   /@sapphire/type/2.3.0:
     resolution: {integrity: sha512-glX5FSVX1SWYAOjTwwktKej6riyOsf788FKLFo0CUVMp2xGNQfDPlb1n5enWseFtArPr9O862I5SyVRrRgvh6g==}
@@ -1562,6 +1543,7 @@ packages:
 
   /tslib/2.5.0:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
+    dev: false
 
   /typed-array-length/1.0.4:
     resolution: {integrity: sha512-KjZypGq+I/H7HI5HlOoGHkWUUGq+Q0TPhQurLbyrVrvnKTBgzLhIJ7j6J/XTQOi0d1RjyZ0wdas8bKs2p0x3Ng==}
@@ -1569,12 +1551,6 @@ packages:
       call-bind: 1.0.2
       for-each: 0.3.3
       is-typed-array: 1.1.10
-    dev: true
-
-  /typescript/4.9.5:
-    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
-    engines: {node: '>=4.2.0'}
-    hasBin: true
     dev: true
 
   /typescript/5.0.3:
