@@ -1,5 +1,5 @@
 <div align="center">
 
-**Lyntia Bot Repositories**
+**Lyntia Bot Repository**
 
 </div>

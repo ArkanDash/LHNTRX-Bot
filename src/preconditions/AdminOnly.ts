@@ -1,7 +1,7 @@
 import { ApplyOptions } from "@sapphire/decorators";
 import { Precondition, PreconditionOptions, PreconditionResult } from "@sapphire/framework";
 import { GuildMember, Interaction, Message } from "discord.js";
-import { Roles } from "../constants/index.js";
+import { Roles } from "../constants";
 
 @ApplyOptions<PreconditionOptions>({
     name: "AdminOnly"

@@ -1,6 +1,9 @@
-export enum Roles{
+export enum Roles {
     ADMIN = "888413958397104158"
 } 
+export enum LogChannels {
+    ECHO_LOG = "972635778687586306",
+}
 export enum Channels {
-    ECHO_LOG = "972635778687586306"
+    LYNTIA_CH = "1105852563514994821"
 }
